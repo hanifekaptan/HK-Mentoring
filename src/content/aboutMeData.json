@@ -1,0 +1,27 @@
+{
+    "title": "Eğitmeniniz",
+    "subtitle": "Yazılım Mühendisi & Kişisel Mentor",
+    "bio": "Merhaba, ben Hanife. Yıllardır yazılım projeleri geliştiriyor ve özellikle hiç bilmeyenlere kodlamayı öğretiyorum. Karmaşık kavramları basit bir dille anlatmayı, sabırlı olmayı ve her öğrencinin kendi hızında ilerlemesini sağlamayı seviyorum. Amacım, size sadece kod yazmayı değil, geleceğe dair yeni kapılar açabilecek bir yetenek kazandırmak.",
+    "credentials": [
+        "🎓 Bilgisayar Mühendisliği",
+        "💼 4+ yıl yazılım ve yapay zeka proje deneyimi"
+    ],
+    "why": "Kodlama yaparak öğrenin, kendi projelerinizi geliştirin ve geleceğin kapılarını aralayın. Herkes kendi başarı hikayesini yazıyor - siz de yazabilirsiniz.",
+    "experience": [
+        "Sıfırdan başlayanlara kodlama öğretme ve ilk projelerini yapmalarına yardım etme",
+        "Karmaşık konuları basit, anlaşılır bir dille açıklama",
+        "Lise öğrencilerinden kariyer değiştirenlere, her yaştan birebir mentorluk",
+        "Yapay zeka ve veri bilimi projelerinde gerçek dünya deneyimi"
+    ],
+    "instructorName": "Hanife Kaptan",
+    "image": "about-me.png",
+    "photoGuidelines": {
+        "recommendation": "Profesyonel stüdyo çekimi veya iyi aydınlatılmış ofis ortamı",
+        "style": "Business casual veya smart casual (örn: düz renkli gömlek, blazer)",
+        "background": "Düz, nötr renk (koyu mavi, gri) veya hafif bulanık ofis/workspace",
+        "lighting": "Doğal ışık veya soft box ile yumuşak ön aydınlatma",
+        "pose": "Hafif yan dönük, gülümseyen, güvenilir ve yaklaşılabilir",
+        "framing": "Omuz hizasından yukarı, göz hizası kadrajın 1/3'ünde",
+        "technical": "Yüksek çözünürlük (min 800x800px), keskin odak, minimal post-processing"
+    }
+}

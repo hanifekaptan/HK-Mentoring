@@ -1,0 +1,57 @@
+{
+    "title": "3 Aşamada Somut Çıktılarla İlerliyorsunuz",
+    "subtitle": "Her aşamada ellerinizle bir şeyler yapacak ve gelişiminizi göreceksiniz",
+    "roadmapSteps": [
+        {
+            "id": 1,
+            "stage": "Aşama 1",
+            "weekRange": "İlk Adımlar",
+            "title": "Kodlamaya Başlangıç",
+            "shortTitle": "İlk programınızı yazın ve paylaşın",
+            "displayTitle": "Kodlamaya Giriş",
+            "tags": "Python Temelleri, İlk Kodlar",
+            "description": "Hiç bilmiyorsanız bile rahatça başlayabileceğiniz bir yolculuk. İlk satır kodunuzu yazacak, basit programlar oluşturacak ve bunları nasıl paylaşacağınızı öğreneceksiniz.",
+            "outcome": "ÇIKTI: Kendi yazdığınız ilk çalışan program. Örneğin basit bir hesap makinesi, oyun veya veri düzenleme programı.",
+            "deliverables": [
+                "Çalışan Python kodunuz",
+                "Kodunuzu internette paylaşma deneyimi",
+                "Kendinize ait ilk programlama başarınız"
+            ],
+            "icon": "code"
+        },
+        {
+            "id": 2,
+            "stage": "Aşama 2",
+            "weekRange": "Gelişim Aşaması",
+            "title": "İlk Uygulamalarınızı Yapın",
+            "shortTitle": "Verilerle çalışın ve yapay zeka uygulamalarınızı geliştirin",
+            "displayTitle": "İlk Uygulamalarınız",
+            "tags": "Veri Analizi, Yapay Zeka",
+            "description": "Artık temel bildiğinize göre, gerçek verilerle çalışmaya ve kendi yapay zeka uygulamalarınızı yapmaya başlayacaksınız. Her şeyi adım adım, anlaşılır şekilde öğreneceksiniz.",
+            "outcome": "ÇIKTI: Verilerden anlamlı sonuçlar çıkaran bir program veya bir yapay zeka uygulaması. Örneğin bir grafik oluşturan program ya da tahmin yapabilen bir AI modeli.",
+            "deliverables": [
+                "Yapay zeka ve veriler projeleriniz",
+                "Kendi tasarladığınız uygulamalar",
+                "Gözle görülür bir ilerleme"
+            ],
+            "icon": "ml"
+        },
+        {
+            "id": 3,
+            "stage": "Aşama 3",
+            "weekRange": "İleri Seviye",
+            "title": "Projelerinizi Herkesle Paylaşın",
+            "shortTitle": "Yaptıklarınızı insanlarla paylaşın",
+            "displayTitle": "Projelerinizi Hayata Geçirin",
+            "tags": "Proje Tamamlama, Paylaşım",
+            "description": "Yaptığınız projeyi düzenleyip, başkalarının görmesini ve kullanmasını sağlayacaksınız. Bu aşamada portföyünüzü güçlendirecek gerçek deneyim kazanacaksınız.",
+            "outcome": "ÇIKTI: Herkesle paylaşabileceğiniz, çalışan bir proje. CV'nizde ve LinkedIn'de gösterebileceğiniz somut bir başarı.",
+            "deliverables": [
+                "Bitmiş ve paylaşılabilir projeler",
+                "Projenizin nasıl çalıştığını anlatan basit bir açıklama",
+                "Portföyünüze ekleyebileceğiniz gerçek bir deneyim"
+            ],
+            "icon": "deploy"
+        }
+    ]
+}

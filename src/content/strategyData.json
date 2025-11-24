@@ -1,0 +1,50 @@
+{
+    "title": "Nasıl Çalışıyoruz?",
+    "subtitle": "Kişiye özel, sabırlı ve sonuç odaklı öğretim yaklaşımı",
+    "methodologies": [
+        {
+            "id": 1,
+            "title": "Seviye Belirleme & Hedef Analizi",
+            "description": "İlk görüşmede nereden başlayacağımızı birlikte belirliyoruz. Hiç bilmiyorsanız endişelenmeyin - herkesin bir başlangıcı var. Hedeflerinizi dinliyorum ve size özel bir yol haritası çiziyorum.",
+            "example": "İlk kodunuzu yazmak ve çalıştırmak",
+            "outcome": "Size özel öğrenme planınız hazır",
+            "metric": "15 dakikalık ücretsiz görüşme",
+            "icon": "project"
+        },
+        {
+            "id": 2,
+            "title": "Birebir Canlı Oturumlar",
+            "description": "Online olarak düzenli görüşüyoruz. Her derste yeni konuları beraber keşfediyor, sorularınızı cevaplıyor ve kodlarınızı birlikte geliştiriyoruz. Anlamadığınız bir nokta olursa tekrar tekrar açıklıyorum. Amaç, her dersten bir adım daha ileri hissederek çıkmanız.",
+            "example": "Kodunuzu birlikte yazarak öğrenmek",
+            "outcome": "Her derste yeni bir beceri kazanacaksınız",
+            "metric": "Haftada 2-4 saat canlı ders",
+            "icon": "mentor"
+        },
+        {
+            "id": 3,
+            "title": "Proje Tabanlı Ödev & Geri Bildirim",
+            "description": "Her hafta küçük ödevler ve pratik yaptıklarınızı gönderiyorsunuz. Ben de kodunuzu inceler, neyin iyi olduğunu, nerede gelişmeniz gerektiğini açıkça söylüyorum. Her proje, portföyünüze ekleyebileceğiniz somut bir başarı olacak.",
+            "example": "Her hafta küçük projeler tamamlamak",
+            "outcome": "Gerçek projeler yaparak öğreneceksiniz",
+            "metric": "Her hafta en az 1 proje",
+            "icon": "tech"
+        },
+        {
+            "id": 4,
+            "title": "Sürekli İletişim & Destek",
+            "description": "Dersler arasında takılırsanız veya bir soru aklınıza takılırsa mesaj atabilirsiniz. Mümkün olan en kısa sürede dönüş yapıyorum. Bugünlerde çalışamadınız veya ara verdiniz diye bir sorun yok - kendi hızınızda ilerliyorsunuz.",
+            "example": "Soru sorma ve destek alma",
+            "outcome": "Hiçbir zaman takılıp kalmayacaksınız",
+            "metric": "Mesaj üzerinden sürekli destek",
+            "icon": "career"
+        }
+    ],
+    "proofSection": {
+        "title": "Öğrenci Başarıları",
+        "examples": [
+            "Zeynep K. — Lise öğrencisi → Üniversitede stajyer olarak işe başladı (hiç bilmiyordu, 8 hafta sonra ilk yapay zeka projesini tamamladı)",
+            "Ahmet D. — Muhasebeci → Yazılım sektörüne geçiş yaptı (Python bilmiyordu, 12 hafta sonra yeni işine başladı)",
+            "Elif T. — Yeni mezun → Teknoloji şirketinde çalışıyor (kendi projesini geliştirip iş görüşmesinde gösterdi)"
+        ]
+    }
+}

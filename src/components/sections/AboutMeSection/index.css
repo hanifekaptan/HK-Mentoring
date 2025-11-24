@@ -1,0 +1,223 @@
+/* About Me Section Redesigned (mavi ağırlıklı, sınırlı pembe aksan) */
+.about-me {
+    background: var(--background-light);
+    padding: 90px 0;
+    /* Lokal palet */
+    --about-blue-50: #f0f6ff;
+    --about-blue-100: #e3f2ff;
+    --about-blue-200: #d6e9ff;
+    --about-blue-500: #2563eb;
+    --about-blue-600: #1d4ed8;
+    --about-indigo-shadow: rgba(37, 99, 235, 0.18);
+    --about-pink-accent: #ff3d7f;
+    /* Az miktarda vurgu */
+}
+
+.about-me-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.bio-section {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+    max-width: 1180px;
+    margin: 0 auto 70px;
+    padding: 0 32px;
+}
+
+.bio-left {
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.instructor-photo-wrapper {
+    position: relative;
+    width: 260px;
+    height: 260px;
+    border-radius: 34px;
+    overflow: hidden;
+    box-shadow: 0 18px 40px var(--about-indigo-shadow);
+    background: linear-gradient(135deg, var(--about-blue-100), var(--about-blue-200));
+}
+
+.instructor-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.instructor-badge {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    background: linear-gradient(135deg, var(--about-blue-600) 0%, var(--about-blue-500) 60%, var(--about-pink-accent) 100%);
+    color: #fff;
+    padding: 6px 14px;
+    font-size: .7rem;
+    letter-spacing: .08em;
+    font-weight: 700;
+    border-radius: 12px;
+}
+
+.instructor-labels {
+    text-align: left;
+}
+
+.instructor-name {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin: 0 0 6px;
+    color: var(--text-headings);
+}
+
+.instructor-role {
+    font-size: .9rem;
+    font-weight: 600;
+    letter-spacing: .05em;
+    color: var(--secondary-color);
+    margin: 0;
+}
+
+.credentials-list {
+    list-style: none;
+    margin: 18px 0 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.credentials-list li {
+    background: var(--about-blue-50);
+    color: var(--about-blue-600);
+    font-size: .65rem;
+    font-weight: 600;
+    padding: 8px 10px;
+    border-radius: 10px;
+    letter-spacing: .05em;
+    border: 1px solid var(--about-blue-100);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 36px;
+}
+
+.bio-right {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.bio-text {
+    font-size: .9rem;
+    line-height: 1.6;
+    color: var(--text-body);
+    margin: 0;
+}
+
+.bio-why {
+    font-size: .85rem;
+    font-weight: 700;
+    color: var(--text-headings);
+    margin: 0;
+}
+
+.experience-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.experience-list li {
+    font-size: .75rem;
+    font-weight: 500;
+    color: var(--text-light);
+    padding-left: 18px;
+    position: relative;
+    line-height: 1.35;
+}
+
+.experience-list li::before {
+    content: '›';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.impact-metrics {
+    display: flex;
+    gap: 26px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+}
+
+.impact-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.impact-value {
+    font-size: 1.1rem;
+    font-weight: 800;
+    color: var(--about-blue-600);
+}
+
+.impact-label {
+    font-size: .6rem;
+    font-weight: 600;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+}
+
+@media (max-width: 1024px) {
+    .credentials-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 920px) {
+    .bio-section {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .bio-left {
+        flex: none;
+        align-items: flex-start;
+    }
+
+    .credentials-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 520px) {
+    .credentials-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .about-me {
+        padding: 60px 0;
+    }
+
+    .instructor-photo-wrapper {
+        width: 200px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "title": "Öğrenci Başarı Hikayeleri",
+    "subtitle": "Gerçek öğrencilerin başarı hikayeleri",
+    "testimonials": [
+        {
+            "id": 1,
+            "name": "Zeynep K.",
+            "role": "Lise Öğrencisi → Stajyer",
+            "text": "Hiç kodlama bilmiyordum. Hanife Hoca ile 8 hafta çalıştım, ilk yapay zeka projemi yaptım. Şimdi bir teknoloji şirketinde stajyerim ve üniversitede bilgisayar mühendisliği okuyorum.",
+            "metrics": "Sıfırdan başladı → İlk projesini tamamladı",
+            "github": "",
+            "photoUrl": "student-avatar.svg",
+            "highlight": "Hiç bilmeden başladı, şimdi stajyer"
+        },
+        {
+            "id": 2,
+            "name": "Ahmet D.",
+            "role": "Muhasebeci → Yazılımcı",
+            "text": "35 yaşındayım, muhasebeciyken kariyer değiştirmeye karar verdim. Python'u sıfırdan öğrendim, 12 hafta sonra kendi projemi yaptım ve yeni bir işe başladım. Hayat değişti!",
+            "metrics": "Kariyer değişimi başarılı",
+            "github": "",
+            "photoUrl": "student-avatar.svg",
+            "highlight": "35 yaşında yeni kariyer başlattı"
+        },
+        {
+            "id": 3,
+            "name": "Elif T.",
+            "role": "Yeni Mezun → İlk İş",
+            "text": "Üniversitede teorik bilgi vardı ama proje yapma tecrübem yoktu. Hanife Hoca ile birlikte gerçek bir proje geliştirdim, iş görüşmelerinde gösterdim ve işe alındım.",
+            "metrics": "İlk iş fırsatını yakaladı",
+            "github": "",
+            "photoUrl": "student-avatar.svg",
+            "highlight": "Kendi projesiyle işe girdi"
+        }
+    ]
+}

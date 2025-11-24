@@ -1,0 +1,83 @@
+{
+    "title": "Paketler & Fiyatlandırma",
+    "subtitle": "Hangi paket size uygun? Şeffaf fiyatlar, net içerik",
+    "pricingOptions": [
+        {
+            "id": 1,
+            "title": "Programlamaya Başlangıç Paketi",
+            "price": "4500",
+            "currency": "TL (tek seferlik ödeme)",
+            "duration": "Kendi hızınızda tamamlayın",
+            "includes": [
+                "Süre kısıtlamasız birebir canlı ders ve kişisel mentorluk",
+                "Sıfırdan Python: Temellerden uygulamalara kadar adım adım",
+                "Yapay zeka dünyasına giriş: Nedir, nasıl çalışır, neler yapabilir?",
+                "Her hafta pratik ödevler ve sınırsız kod incelemesi",
+                "En az 3 gerçek proje (portföyünüz için hazır)",
+                "Tüm ders materyalleri, kaynak kodlar ve notlar",
+                "Kariyer planlama ve gelecek yol haritası desteği",
+                "Süreç boyunca mesajla kesintisiz destek"
+            ],
+            "excludes": [
+                "Bu paket, Python temeli ve yapay zekaya yumuşak bir giriş sunar. Makine öğrenimi modelleri geliştirme veya derin öğrenme gibi ileri seviye yapay zeka konuları dahil değildir.",
+                "Amacımız size programlamanın temellerini kazandırmak ve yapay zeka dünyasına adım atmanız için sağlam bir başlangıç noktası oluşturmak."
+            ],
+            "bestFor": "Hiç kodlama deneyimi olmayan, teknolojiye meraklı herkes için. Lise öğrencileri, kariyer değişikliği düşünen yetişkinler veya yapay zekaya ilgi duyan ama nereden başlayacağını bilemeyenler için mükemmel bir başlangıç.",
+            "highlighted": false
+        },
+        {
+            "id": 2,
+            "title": "Esnek Saatli Mentörlük Programı",
+            "price": "400",
+            "currency": "TL / saat",
+            "duration": "Tamamen esnek, istediğiniz kadar",
+            "includes": [
+                "Tüm konular dahil: Sıfırdan başlangıç, Python, yapay zeka, veri analizi, proje geliştirme",
+                "Sadece ihtiyacınız olan konulara odaklanın (zaten bildiğinizi tekrar etmeyin)",
+                "İstediğiniz hızda ilerleyin: Yavaş, hızlı veya ara vererek",
+                "Dilediğiniz zaman başlayıp durdurun (ek ücret yok)",
+                "Birebir proje danışmanlığı ve detaylı kod incelemesi",
+                "Canlı hata ayıklama, problem çözme ve anında destek",
+                "Kariyer planlama ve iş başvurusu rehberliği"
+            ],
+            "excludes": [],
+            "bestFor": "Bütçenizi ve zamanınızı tam kontrol etmek isteyenler için ideal. Sıfırdan başlayabilir veya bildiğiniz yerden devam edebilirsiniz. Yoğun tempoda çalışmak, belirli konulara odaklanmak veya sadece ihtiyacınız kadar ders almak isteyenler için mükemmel.",
+            "highlighted": true
+        }
+    ],
+    "comparisonFeatures": [
+        {
+            "label": "Python temelleri ve ilk projeler",
+            "starter": "Dahil",
+            "flexible": "Dahil"
+        },
+        {
+            "label": "İleri seviye yapay zeka konuları",
+            "starter": "Dahil değil",
+            "flexible": "Dahil"
+        },
+        {
+            "label": "Birebir canlı dersler ve mentorluk",
+            "starter": "Dahil",
+            "flexible": "Dahil"
+        },
+        {
+            "label": "Ödevler, projeler ve kod incelemesi",
+            "starter": "Dahil",
+            "flexible": "Dahil"
+        },
+        {
+            "label": "Kariyer ve gelecek planlaması desteği",
+            "starter": "Dahil",
+            "flexible": "Dahil"
+        },
+        {
+            "label": "İstediğiniz seviyeden başlama",
+            "starter": "Dahil değil",
+            "flexible": "Dahil"
+        }
+    ],
+    "ctaText": "Kodlama Yolculuğunuza Başlayın",
+    "ctaSubtext": "Ücretsiz tanışma görüşmesi yapın, hedeflerinizi konuşun. Hiçbir bağlayıcılık yok.",
+    "ctaButtonText": "Ücretsiz Tanışma Görüşmesi"
+}

@@ -1,0 +1,137 @@
+{
+    "title": "Ders İçeriği",
+    "subtitle": "Kendi hızınızda, yaparak öğrenin",
+    "modules": [
+        {
+            "id": 1,
+            "title": "Kodlamaya İlk Adım",
+            "summary": "Sıfırdan kodlama dersleri. İlk programınızı birlikte yazacağız.",
+            "hours": "Yaklaşık 10-20 saat",
+            "projectOutput": "İlk çalışan programınız - ama gerçek bir proje",
+            "topics": [
+                "İlk kodunuzu yazmak ve çalıştırmak",
+                "Program akışını ve temel yapıları öğrenmek",
+                "Küçük fakat çalışan projeler yapmak",
+                "İleri düzey programlama kavramlarına giriş",
+                "Temiz kod yazma pratikleri",
+                "Gerçek problemleri çözmek"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Veri Dünyasını Keşfedin",
+            "summary": "Günlük hayattan verileri kullanarak analizler yapacak, grafikler çizecek ve anlamlı sonuçlar çıkaracaksınız.",
+            "hours": "Yaklaşık 20-30 saat",
+            "projectOutput": "Kendi veri analiziniz ve grafikleriniz",
+            "topics": [
+                "Verileri okumak ve düzenlemek",
+                "Hesaplamalar ve karşılaştırmalar",
+                "Grafikler çizerek verileri görselleştirmek",
+                "Verilerden anlamlı sonuçlar çıkarmak",
+                "Verileri kullanarak problemleri çözmek"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Makine Öğrenimi:Uygulamalarla Öğrenin",
+            "summary": "Bilgisayarın verilerden öğrenmesini sağlayan teknikleri keşfedeceksiniz. Her şey adım adım anlaşılır şekilde.",
+            "hours": "Yaklaşık 20-30 saat",
+            "projectOutput": "Tahmin yapabilen bir program",
+            "topics": [
+                "Bilgisayara tahminler yaptırma",
+                "Programın ne kadar başarılı olduğunu ölçme",
+                "Farklı yaklaşımlar deneme ve karşılaştırma",
+                "Gerçek hayat problemlerinde uygulama"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Yapay Zeka ile Tanışma",
+            "summary": "Görsel tanıma gibi ilginç yapay zeka uygulamalarını seviyede keşfedeceksiniz. Karmaşık matematiğe girmeden, pratik uygulamalar yapacaksınız.",
+            "hours": "Yaklaşık 20-30 saat",
+            "projectOutput": "Bir yapay zeka uygulaması",
+            "topics": [
+                "Yapay zekanın nasıl çalıştığını anlamak",
+                "Görselleri tanıyan programlar yapmak",
+                "Hazır araçları kullanarak hızlı sonuç almak",
+                "Kendi AI uygulamanızı yapmak"
+            ]
+        },
+        {
+            "id": "5",
+            "title": "Akıllı Asistanlar Yapmak",
+            "summary": "ChatGPT ve benzeri modern yapay zeka araçlarını kendi programlarınızda nasıl kullanacağınızı öğreneceksiniz.",
+            "hours": "Yaklaşık 20-25 saat",
+            "projectOutput": "Sohbet edebilen bir program",
+            "topics": [
+                "Modern yapay zeka araçlarını kullanmak",
+                "Bir sohbet botu yapmak",
+                "Kullanıcılarla etkileşimli programlar",
+                "Hazır AI araçlarını kendi projelerinizde kullanmak"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Veritabanı ve API Kullanımı",
+            "summary": "Yaptığınız programların verilerini nasıl saklayacağınızı ve diğer programlarla nasıl paylaşacağınızı öğreneceksiniz.",
+            "hours": "Yaklaşık 15-20 saat",
+            "projectOutput": "Veri kaydeden ve paylaşan bir program",
+            "topics": [
+                "Bilgileri kalıcı olarak kaydetmek",
+                "Veritabanı kullanımı",
+                "Veritabanı ORM araçlarıyla çalışmak",
+                "API ile veri yönetimi"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "WEB Teknolojilerine Giriş",
+            "summary": "WEB teknolojilerinin temellerini öğrenerek, web uygulamaları geliştirebileceksiniz.",
+            "hours": "Yaklaşık 25-30 saat",
+            "projectOutput": "Basit bir web uygulaması",
+            "topics": [
+                "WEB teknolojilerinin temelleri",
+                "HTML ve CSS ile sayfalar oluşturmak",
+                "JavaScript ile etkileşim eklemek",
+                "React, Tailwind, Material UI gibi popüler araçları kullanmak"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Uygulama Dağıtımı ve Yayınlama",
+            "summary": "Uygulamalarınızı internet üzerinde yayınlayacak ve kullanabileceği bir hale getireceksiniz.",
+            "hours": "Yaklaşık 15-25 saat",
+            "projectOutput": "Kapsamlı, WEB'de yayınlanmış bir AI uygulaması",
+            "topics": [
+                "Dokümantasyon hazırlamak",
+                "Uygulamayı paketlemek",
+                "Uygulamayı yayınlayarak kullanıcılarına sunmak"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Geleceğe Hazırlanın",
+            "summary": "İş fırsatlarına hazırlık ve gelecek hedeflerine ilham ve ipucları.",
+            "hours": "Yaklaşık 15-20 saat",
+            "projectOutput": "Portföyünüz ve gelecek planınız",
+            "topics": [
+                "Yaptıklarınızı en iyi şekilde sunmak",
+                "Portföy hazırlamak ve paylaşmak",
+                "Teknik mülakatlara hazırlanmak"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Kendi Projenizi Geliştirin",
+            "summary": "Öğrendiklerinizi bir araya getirerek, tamamen size ait büyük bir proje yapacaksınız. Bu portföyünüzün yıldızı olacak.",
+            "hours": "Yaklaşık 40-60 saat",
+            "projectOutput": "Tam tekmilli, paylaşılabilir büyük projeniz",
+            "topics": [
+                "Kendi fikrinizi projeye dönüştürmek",
+                "Tüm bildiklerinizi bir araya getirmek",
+                "Gerçek bir uygulama olarak yayınlamak",
+                "Başkalarına göstermek için hazırlamak"
+            ]
+        }
+    ]
+}

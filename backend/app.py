@@ -8,7 +8,17 @@ from dotenv import load_dotenv
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, resources={
+    r"/*": {
+        "origins": [
+            "https://one-on-one-lessons-frontend.onrender.com",
+            "http://localhost:5173",
+            "http://localhost:5000"
+        ],
+        "methods": ["GET", "POST", "OPTIONS"],
+        "allow_headers": ["Content-Type", "Accept"]
+    }
+})
 app.secret_key = os.getenv('SECRET_KEY', 'default_secret_key')
 
 SENDER_EMAIL = os.getenv('SENDER_EMAIL')

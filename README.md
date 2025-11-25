@@ -1,26 +1,21 @@
 # One-on-One Lessons
 
-Modern ve interaktif bire bir ders/mentörlük platformu. React + TypeScript + Vite ile geliştirilmiş frontend ve Flask ile geliştirilmiş backend API içerir.
+Modern ve interaktif bire bir ders/mentörlük platformu. React + TypeScript + Vite ile geliştirilmiş frontend, Formspree ile form yönetimi.
 
 ## 🚀 Özellikler
 
 - **Modern UI/UX**: Responsive tasarım ve smooth animasyonlar
 - **Dinamik İçerik**: JSON dosyalarından yüklenen dinamik içerik yönetimi
-- **İletişim Formu**: Backend API ile entegre e-posta gönderimi
+- **İletişim Formu**: Formspree ile e-posta gönderimi
 - **Section Bazlı Yapı**: Hero, About, Strategy, Learning Path, Roadmap, Testimonials, Pricing, CTA ve Footer bölümleri
 - **TypeScript**: Tip güvenli kod yapısı
 - **Modüler Mimari**: Yeniden kullanılabilir component yapısı
+- **Bakım Gerektirmeyen**: Backend yok, sadece static frontend
 
 ## 📁 Proje Yapısı
 
 ```
 one-on-one-lessons/
-├── backend/                    # Flask API
-│   ├── app.py                 # Ana Flask uygulaması
-│   ├── requirements.txt       # Python bağımlılıkları
-│   ├── Procfile              # Render deployment
-│   ├── .env                  # Ortam değişkenleri (Git'e eklenmez)
-│   └── .env.example          # Ortam değişkenleri şablonu
 ├── src/
 │   ├── components/
 │   │   ├── base/             # Temel componentler (Button, SectionTitle)
@@ -35,22 +30,13 @@ one-on-one-lessons/
 
 ## 🛠️ Teknolojiler
 
-### Frontend
 - **React 19** - UI kütüphanesi
 - **TypeScript** - Tip güvenliği
 - **Vite** - Build tool ve dev server
 - **CSS3** - Modern styling
-
-### Backend
-- **Flask** - Python web framework
-- **Flask-CORS** - Cross-Origin Resource Sharing
-- **SMTPLib** - E-posta gönderimi
-- **python-dotenv** - Ortam değişkenleri yönetimi
-- **Gunicorn** - WSGI server
+- **Formspree** - Form yönetimi ve e-posta gönderimi
 
 ## 📦 Kurulum
-
-### Frontend Kurulumu
 
 ```bash
 # Bağımlılıkları yükle
@@ -66,98 +52,33 @@ npm run build
 npm run preview
 ```
 
-### Backend Kurulumu
+## 📧 Form Yapılandırması
 
-```bash
-# Backend dizinine git
-cd backend
+Form, Formspree (`https://formspree.io/f/mqaowkrj`) üzerinden yönetiliyor. 
 
-# Python sanal ortamı oluştur
-python -m venv venv
-
-# Sanal ortamı aktifleştir (Windows)
-venv\Scripts\activate
-
-# Bağımlılıkları yükle
-pip install -r requirements.txt
-
-# .env dosyasını oluştur
-copy .env.example .env
-
-# .env dosyasını düzenle ve e-posta bilgilerini ekle
-# SENDER_EMAIL, SENDER_PASSWORD, RECIPIENT_EMAIL vb.
-
-# Backend'i başlat
-python app.py
-```
-
-## 🔐 Ortam Değişkenleri
-
-### Frontend `.env`
-```env
-VITE_API_URL=http://localhost:5000
-```
-
-### Backend `.env`
-```env
-SENDER_EMAIL=gönderen@gmail.com
-SENDER_PASSWORD=gmail_uygulama_sifresi
-RECIPIENT_EMAIL=alıcı@gmail.com
-SMTP_SERVER=smtp.gmail.com
-SMTP_PORT=587
-SECRET_KEY=güçlü_rastgele_anahtar
-PORT=5000
-```
-
-**Not**: Gmail için [Uygulama Şifresi](https://support.google.com/accounts/answer/185833) kullanmalısınız.
+Kendi Formspree form'unuzu kullanmak için:
+1. https://formspree.io'da hesap oluşturun
+2. Yeni form oluşturun
+3. `src/components/sections/CTASection/index.tsx` dosyasındaki form action URL'ini güncelleyin
 
 ## 🌐 Dağıtım
 
-### Backend (Render)
+### Vercel (Önerilen)
 
-1. Repository'yi GitHub'a push edin
-2. Render Dashboard'da yeni Web Service oluşturun
-3. Ayarlar:
-   - **Root Directory**: `backend`
-   - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `gunicorn app:app`
-4. Environment variables ekleyin
-5. Deploy edin
+```bash
+npm run build
+vercel --prod
+```
 
-### Frontend (Vercel/Netlify)
+### Netlify
 
 1. Repository'yi bağlayın
 2. Build ayarları:
    - **Build Command**: `npm run build`
    - **Output Directory**: `dist`
-3. Environment variable ekleyin: `VITE_API_URL`
-4. Deploy edin
+3. Deploy edin
 
-## 📝 API Endpoints
-
-### `POST /submit_form`
-İletişim formu gönderimi
-
-**Request Body** (form-data):
-```
-ad_soyad: string (zorunlu)
-iletisim_bilgisi: string (zorunlu)
-ek_notlar: string (opsiyonel)
-```
-
-**Response** (JSON):
-```json
-{
-  "status": "success",
-  "message": "Başvurunuz başarıyla gönderildi..."
-}
-```
-
-### `GET /`
-API durum kontrolü
-
-### `GET /health`
-Health check endpoint
+**Not**: Backend olmadığı için environment variable gerekmez!
 
 ## 🎨 Özelleştirme
 
@@ -176,19 +97,15 @@ Her component kendi CSS dosyasına sahiptir:
 
 ## 🐛 Sorun Giderme
 
-### E-posta Gönderilmiyor
-- Gmail Uygulama Şifresi kullandığınızdan emin olun
-- 2 Adımlı Doğrulama aktif olmalı
-- `.env` dosyasında boşluk olmamalı
-- Backend'i yeniden başlatın
-
-### CORS Hatası
-- Backend'de `flask-cors` yüklü olduğundan emin olun
-- Frontend `.env` dosyasında doğru API URL'i olmalı
+### Form Gönderilmiyor
+- Formspree form ID'sinin doğru olduğundan emin olun
+- Tarayıcı console'unda hata kontrolü yapın
+- Formspree dashboard'unuzda spam kontrolü yapın
 
 ### Build Hatası
 - `node_modules` silip yeniden `npm install` yapın
 - TypeScript hatalarını kontrol edin
+- Cache temizleyin: `npm run build -- --force`
 
 ## 📄 Lisans
 

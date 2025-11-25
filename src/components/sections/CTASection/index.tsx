@@ -44,8 +44,10 @@ export const CTASection = () => {
         setIsSubmitting(true);
         setStatusMessage('Lütfen bekleyiniz...');
 
+        const formspreeId = import.meta.env.VITE_FORMSPREE_FORM_ID || 'YOUR_FORM_ID';
+
         try {
-            const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+            const response = await fetch(`https://formspree.io/f/${formspreeId}`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'

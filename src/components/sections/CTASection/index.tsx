@@ -1,4 +1,3 @@
-import { Button } from '../../base';
 import './index.css';
 
 export const CTASection = () => {
@@ -9,7 +8,7 @@ export const CTASection = () => {
                 <div className="form-wrapper" role="form">
                     <h2 id="cta-title" className="form-title">Ücretsiz Tanışma Görüşmesi: Hedeflerini Konuşalalım!</h2>
                     <p className="form-subtitle">Nasıl başlayalım, neler yapabiliriz - birlikte konuşalalım. Hiçbir bağlayıcılığı yok, sadece tanışmak ve yol haritanızı çizmek için.</p>
-                    <form className="contact-form-element" action="https://formspree.io/f/xknnynjz" method="POST">
+                    <form className="contact-form-element" action="https://formspree.io/f/mqaowkrj" method="POST">
                         <div className="form-group">
                             <label htmlFor="name">Ad Soyad <span className="required">*</span></label>
                             <input

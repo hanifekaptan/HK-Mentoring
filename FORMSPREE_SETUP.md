@@ -10,7 +10,7 @@ Backend'i kaldırdık! Artık formu Formspree ile yönetiyoruz.
 
 ### 2. Yeni Form Oluştur
 - Dashboard'da "New Form" butonuna tıkla
-- Form adı: "One-on-One Lessons Contact"
+- Form adı: "HK Mentoring Contact"
 - E-posta adresi: `hanifekaptan.dev@gmail.com` (formlar buraya gelecek)
 
 ### 3. Form ID'yi Al

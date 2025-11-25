@@ -1,6 +1,6 @@
-# One-on-One Lessons
+# HK Mentoring
 
-Modern ve interaktif bire bir ders/mentörlük platformu. React + TypeScript + Vite ile geliştirilmiş frontend, Formspree ile form yönetimi.
+Modern ve interaktif mentörlük platformu. React + TypeScript + Vite ile geliştirilmiş frontend, Formspree ile form yönetimi.
 
 ## 🚀 Özellikler
 
@@ -15,7 +15,7 @@ Modern ve interaktif bire bir ders/mentörlük platformu. React + TypeScript + V
 ## 📁 Proje Yapısı
 
 ```
-one-on-one-lessons/
+hk-mentoring/
 ├── src/
 │   ├── components/
 │   │   ├── base/             # Temel componentler (Button, SectionTitle)

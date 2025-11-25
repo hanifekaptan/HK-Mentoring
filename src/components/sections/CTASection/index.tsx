@@ -1,8 +1,6 @@
 import { Button } from '../../base';
 import './index.css';
 import { useState } from 'react';
-import { submitContactForm } from '../../../services/api';
-import type { ContactFormData, ApiResponse } from '../../../types/api.types';
 
 interface CTAFormState {
     name: string;
@@ -47,17 +45,21 @@ export const CTASection = () => {
         setStatusMessage('Lütfen bekleyiniz...');
 
         try {
-            const apiFormData: ContactFormData = {
-                ad_soyad: formData.name,
-                iletisim_bilgisi: formData.contact,
-                ek_notlar: formData.details || ''
-            };
+            const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: formData.name,
+                    contact: formData.contact,
+                    details: formData.details
+                })
+            });
 
-            const response: ApiResponse = await submitContactForm(apiFormData);
-
-            if (response.status === 'success') {
+            if (response.ok) {
                 setSubmitted(true);
-                setStatusMessage(response.message);
+                setStatusMessage('Başvurunuz başarıyla gönderildi, size en kısa sürede dönüş yapacağız!');
                 setFormData({
                     name: '',
                     contact: '',
@@ -66,11 +68,10 @@ export const CTASection = () => {
                     details: ''
                 });
             } else {
-                setStatusMessage(response.message);
+                setStatusMessage('Başvurunuzu gönderirken bir hata oluştu. Lütfen tekrar deneyiniz.');
             }
         } catch (error) {
-            const errorMessage = error instanceof Error ? error.message : 'Başvurunuzu gönderirken bir hata oluştu. Lütfen tekrar deneyiniz.';
-            setStatusMessage(errorMessage);
+            setStatusMessage('Başvurunuzu gönderirken bir hata oluştu. Lütfen tekrar deneyiniz.');
         } finally {
             setIsSubmitting(false);
         }
